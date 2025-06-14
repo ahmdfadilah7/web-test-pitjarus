@@ -112,7 +112,7 @@ The application uses the following database structure:
    - `area_id` (Primary Key)
    - `area_name`
 
-3. **brand**
+3. **product_brand**
    - `brand_id` (Primary Key)
    - `brand_name`
 
@@ -132,7 +132,7 @@ The application uses the following database structure:
    - `report_id` (Primary Key)
    - `store_id` (Foreign Key)
    - `product_id` (Foreign Key)
-   - `compliance` (Boolean)
+   - `compliance` (Boolean/Integer)
    - `tanggal` (Date)
 
 ### Sample Data
